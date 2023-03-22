@@ -94,7 +94,7 @@ public class Main {
         int yearStart= yearNow -200;
         int yearFinish= yearNow + 100;
         for (int i=0;i<=yearFinish;i=i+79){
-            if (yearStart<=i && i<=yearFinish){
+            if (yearStart<i && i<yearFinish){
                 System.out.println(i);
             }
         }
